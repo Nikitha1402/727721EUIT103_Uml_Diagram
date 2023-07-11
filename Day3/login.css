@@ -1,0 +1,140 @@
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      ),
+      
+  }
+  
+  form{
+      background-color: white;
+      padding: 0px 60px;
+      border-radius: 10px;
+  }
+  
+  h1{
+      color: rgb(77, 1, 77);
+      text-align: center;
+  }
+  
+  button{
+    margin: 1rem 0 2rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  }
+
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: antaro;
+} 
+body{
+    background-image: url("https://c0.wallpaperflare.com/preview/534/41/125/school-books-young-adult-education.jpg");
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  
+
+}
+
+body > div{
+    width: 430px;
+    height: 600px;
+    position: absolute;
+    transform: translate(-150%,-60%);
+    left: 50%;
+    top: 50%;
+    
+
+}
+body > div::after,
+body > div::before{
+    content:"";
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 60%;
+
+}
+body > div::after{
+    left: -100px;
+    top: -90px;
+}
+body > div::before{
+    right: -120px;
+    bottom: -120px;
+}
+button{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #1d41a4;
+    color: #e9e9f1;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+form{
+    
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 60%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1); 
+    box-shadow: 0 0 40px rgba(7,8,16,0.6);
+    padding: 50px 35px;
+    color: rgb(64, 66, 67);
+    
+    
+
+}
+
+
+form *{
+    border: 0;
+    outline: 0;
+    
+}
+form h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #434141;
+
+}
+label{
+    display: block;
+    font-size: 1em;
+    margin-top: 30px;
+    font-weight: 500;
+    color: #131314;
+}
+input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(37, 36, 36, 0.148);
+    padding: 0 10px;
+    margin-top:8px;
+    font-size: 14px;
+    font-weight: 400;
+
+
+}
+::placeholder{
+    color: #595757; 
+}
