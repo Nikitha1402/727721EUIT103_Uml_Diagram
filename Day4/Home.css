@@ -1,0 +1,16 @@
+ .app3{
+    
+    height: 100vh;
+    
+    background-image: url("https://img.freepik.com/free-photo/young-students-learning-together-during-group-study_23-2149211067.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 1.0;
+  }
+  h2{
+    margin-left: 20%;
+    font-size: 60px;
+    color: rgb(238, 247, 247);
+    opacity:0.8;
+    
+  }
