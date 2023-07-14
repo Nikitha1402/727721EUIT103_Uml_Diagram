@@ -1,0 +1,57 @@
+.cou
+{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSAc4AP0POT9kfJ8Qq2AbUfOaCLgrPTIJiN9p0XfT7INAeecR9mAqleqjNXDxV8MMklnk&usqp=CAU");
+  background-size: cover;
+  
+}
+
+.media-container {
+  margin-bottom: 25rem;
+  width: 15rem;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 8px #999;
+  flex-direction: row;
+  margin: 0.6rem;
+  background-color: rgb(121, 118, 118);
+  height:min-content;
+  float: inline-start;
+  margin-left: 50px;
+  gap: 20px;
+
+
+
+
+  }
+  
+  .card-img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+
+  }
+  
+  .card-title {
+    margin: 0.5rem 5%;
+  }
+  
+  .card-description {
+    margin: 0.5rem 5%;
+  }
+  
+  .card-btn {
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    margin: 0.5rem 0.5rem;
+
+  }
+
+
+  .h1{
+    
+    position: center;
+    margin-bottom: 50%;
+  }

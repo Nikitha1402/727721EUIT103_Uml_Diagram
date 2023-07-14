@@ -1,0 +1,65 @@
+ .app3{
+    
+    height: 100vh;
+    
+    background-image: url("https://img.freepik.com/free-photo/young-students-learning-together-during-group-study_23-2149211067.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 1.0;
+  }
+  h2{
+    margin-left: 20%;
+    font-size: 60px;
+    color: rgb(222, 215, 221);
+    opacity:0.8;            font-size: 5em;
+    font-family: serif;
+    animation: animate 
+        2.0s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1.9;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+    
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;
+    padding: 40px;
+    background-color: #f0f0f0;
+
+  }
+  
+  .footer-container p {
+    margin: 0;
+    margin-left: 600px;
+    
+  }
+  
+  .footer-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-container li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-container li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
