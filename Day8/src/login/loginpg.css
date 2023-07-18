@@ -1,0 +1,45 @@
+.app1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    background-image: url("https://c0.wallpaperflare.com/preview/534/41/125/school-books-young-adult-education.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  form{
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 20%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1); 
+    box-shadow: 0 0 40px rgba(7,8,16,0.6);
+    padding: 50px 35px;
+    color: rgb(64, 66, 67);
+    
+  }
+  
+  .lh{
+      color: black;
+      text-align: center;
+  }
+  
+  .logb1{
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      background-color: rgb(101, 87, 255);
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 30px;
+  }
