@@ -1,0 +1,84 @@
+/* General styles */
+.feed {
+    font-family: Arial, sans-serif;
+
+    background-image: url("https://st3.depositphotos.com/3662505/12489/i/600/depositphotos_124895920-stock-photo-beautiful-designers-working.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+  }
+  
+  .myse {
+    margin-bottom: 220px;
+    color: rgb(221, 211, 211);
+    text-align: center;
+    margin-left: 50px;
+    
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 50px;
+  }
+  
+  .logg {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  button:hover {
+    background-color: #6f9ade;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #7b8be3;
+    color: white;
+  }
+  
+  /* Styles for the component */
+  .FeesManagement {
+    margin: 20px;
+  }
+  
+  .FeesManagement input[type="text"] {
+    width: 200px;
+  }
+  
+  .FeesManagement button {
+    margin-left: 10px;
+  }
+  
+  .FeesManagement table {
+    margin-top: 20px;
+  }
+  
+  .FeesManagement th,
+  .FeesManagement td {
+    text-align: left;
+  }
+  .loo{
+align-items: center;  }
+.feel{
+    width: 400px;
+}
+.ter{
+    color: aliceblue;
+}
+

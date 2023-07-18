@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1522881451255-f59ad836fdfb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d3JpdGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .attendance-list {
+    margin-right: 910px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .student {
+    margin-bottom: 10px;
+  }
+  
+  .att {
+    margin-right: 910px;
+    color: #ccc5c5;
+  }
+  
+.att2 {
+    margin-right: 310px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
