@@ -1,0 +1,16 @@
+.tim{
+    position: absolute;
+    align-items: center;
+
+    padding: 50px 35px;
+    color: rgb(64, 66, 67);
+}
+.timh{
+    color: black;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    bottom: 50px;
+}
+.timp{
+    bottom: 50px;
+}
